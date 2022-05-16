@@ -2,7 +2,7 @@ public class Cat {
     private String name;
     private int appetite;
 
-    public boolean full;
+    private boolean full;
 
 
     public Cat(String name, int appetite, boolean full) {
@@ -35,6 +35,6 @@ public class Cat {
 
     public void fullCat() {
         full = true;
-        System.out.println(name + " Ñûòûé");
+        System.out.println(name + " Ã‘Ã»Ã²Ã»Ã©");
     }
 }
