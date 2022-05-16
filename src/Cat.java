@@ -31,6 +31,14 @@ public class Cat {
     public void setAppetite(int appetite) {
         this.appetite = appetite;
     }
+    
+    public boolean isFull() {
+        return full;
+    }
+
+    public void setFull(boolean full) {
+        this.full = full;
+    }
 
 
     public void fullCat() {
