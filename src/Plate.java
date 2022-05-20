@@ -10,21 +10,18 @@ public class Plate {
             food -= n;
 
         } else {
-            System.out.println("Этому коту не хватило еды, он остался голодный, " + "еще ему надо " + (-(food - n)));
+            System.out.println("Р­С‚РѕРјСѓ РєРѕС‚Сѓ РЅРµ С…РІР°С‚РёР»Рѕ РµРґС‹, РѕРЅ РѕСЃС‚Р°Р»СЃСЏ РіРѕР»РѕРґРЅС‹Р№, " + "РµС‰Рµ РµРјСѓ РЅР°РґРѕ " + (-(food - n)));
         }
     }
 
 
     public void info() {
-        System.out.println("Тарелка: " + food);
+        System.out.println("РўР°СЂРµР»РєР°: " + food);
     }
 
 
     public int getFood() {
-        // if (food > 0) {
         return food;
-        //  }
-        // return 0;
     }
 
     public void setFood(int food) {
@@ -35,7 +32,7 @@ public class Plate {
 
     public void plusFood(){
         this.food += 100;
-        System.out.println("Досыпали еще корма"+" "+100+" гр.");
+        System.out.println("Р”РѕСЃС‹РїР°Р»Рё РµС‰Рµ РєРѕСЂРјР°"+" "+100+" РіСЂ.");
     }
 
     boolean checkFood(int n){
